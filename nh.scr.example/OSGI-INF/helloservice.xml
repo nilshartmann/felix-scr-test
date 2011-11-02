@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scr:component xmlns:scr='http://www.osgi.org/xmlns/scr/v1.1.0' name='nh.scr.example.internal.HelloServiceImpl' immediate='true' activate='activate'>
+  <implementation class='nh.scr.example.internal.HelloServiceImpl'/>
+  <service>
+    <provide interface='nh.scr.example.HelloService'/>
+  </service>
+  <reference name='translationService' interface='nh.scr.example.TranslationService' bind='setTranslationService'/>
+</scr:component>

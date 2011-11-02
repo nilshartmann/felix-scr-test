@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example
+Bundle-SymbolicName: nh.scr.example
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+xService-Component: OSGI-INF/helloservice.xml,OSGI-INF/translationservice.xml
+Import-Package: org.osgi.framework
+Require-Bundle: org.apache.felix.scr;bundle-version="1.0.0"
+Bundle-Activator: nh.scr.example.Activator
+

@@ -1,0 +1,7 @@
+.metadata/
+bin/
+bin_test/
+generated/
+AddressBook/
+.svn
+.svn/

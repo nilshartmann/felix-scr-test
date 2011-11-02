@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component name='nh.scr.example.internal.TranslationServiceImpl'>
+  <implementation class='nh.scr.example.internal.TranslationServiceImpl'/>
+  <service>
+    <provide interface='nh.scr.example.TranslationService'/>
+  </service>
+</component>
